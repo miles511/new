@@ -1,0 +1,140 @@
+body {
+  margin: 0 auto;
+  font-family: "Lexend Deca", sans-serif;
+}
+.father {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+}
+
+.first {
+  height: 430px;
+  width: 270px;
+  background-color: hsl(31, 77%, 52%);
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.second {
+  height: 430px;
+  width: 270px;
+  background-color: hsl(184, 100%, 22%);
+}
+
+.third {
+  height: 430px;
+  width: 270px;
+  background-color: hsl(179, 100%, 13%);
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+img {
+  margin-left: 42px;
+  margin-top: 38px;
+}
+
+h2 {
+  color: white;
+  margin-left: 42px;
+  margin-top: 30px;
+}
+
+p {
+  color: rgb(233, 225, 225);
+  margin-left: 42px;
+  margin-top: 30px;
+  font-size: 13px;
+  line-height: 22px;
+}
+
+.iwobi {
+  background-color: white;
+  height: 40px;
+  width: 120px;
+  border-radius: 40px;
+  margin-top: 70px;
+  margin-left: 42px;
+  border-style: solid;
+  border-color: white;
+}
+
+.iwobi:hover {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.iwobi2 {
+  background-color: white;
+  height: 40px;
+  width: 120px;
+  border-radius: 40px;
+  margin-top: 70px;
+  margin-left: 42px;
+  border-style: solid;
+  border-color: white;
+}
+.iwobi2:hover {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.iwobi3 {
+  background-color: white;
+  height: 40px;
+  width: 120px;
+  border-radius: 40px;
+  margin-top: 70px;
+  margin-left: 42px;
+  border-style: solid;
+  border-color: white;
+}
+
+.iwobi3:hover {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.learn {
+  color: hsl(31, 77%, 52%);
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.learn:hover {
+  color: white;
+}
+
+.learn1 {
+  color: hsl(184, 100%, 22%);
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.learn1:hover {
+  color: white;
+}
+
+.learn2 {
+  color: hsl(179, 100%, 13%);
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.learn2:hover {
+  color: white;
+}
+
+@media screen and (max-width: 480px) {
+  .father {
+    display: block;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  .first {
+    height: 430px;
+    width: 270px;
+    background-color: hsl(31, 77%, 52%);
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 10px;
+  }
+}
